@@ -38,6 +38,18 @@ Nonfunctional Requirements:
 * I recommend not use GridWorld’s execution engine to produce subsequent
 	generations. It will be easier to implement the unit test if you directly
 	produce and display subsequent generations.
+	
+Functional Requirements:
+* grid is 20x20
+* test grid is 5x5
+* Grid is not boundless and does not wrap
+* Cells off the screen are dead
+* Live cells look like black rocks
+* Dead cells are black white
+* Game runs for 100 iterations
+* Game sleeps for .5 seconds between iterations
+* Initial code is seeded in
+* 
 
 
 Artifacts to Produce:
